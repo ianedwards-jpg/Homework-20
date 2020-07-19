@@ -16,19 +16,19 @@ const Landing = () => {
                         <h1>Full Stack Software Developer</h1>
 
                         <hr />
-                        <p>JavaScript | HTML5/CSS3 | MySQL | MongoDB | NodeJS | Express | React | Bootstrap</p>
+                        <p>JavaScript | HTML5/CSS3 | MySQL | NoSQL | MongoDB | NodeJS | Express | React | Bootstrap</p>
 
                         <div className="reference-links">
 
-                            <a href="https://www.linkedin.com/in/araya-nawrath-31268237/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://linkedin.com/in/ian-edwards-4195586a" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-linkedin-square" aria-hidden="true" />
                             </a>
 
-                            <a href="https://github.com/My-unicorn" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/ianedwards-jpg" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-github-square" aria-hidden="true" />
                             </a>
 
-                            <a href="https://www.arayanawrath.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.ianedwards.dev" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-envelope-square" aria-hidden="true" />
                             </a>
 

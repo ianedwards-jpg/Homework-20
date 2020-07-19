@@ -20,11 +20,11 @@ const About = () => {
           
           
             <p>
-            I am a Full stack web developer adept at building responsive web application from front to back. Passionate about learing teachnologies, bring ideas to life, and working with delicated teams to build efficient and robust application suited to the user's needs.
+            I'm a full-stack developer meticulous about creating pixel-perfect applications for clients as well as my own personal projects. I have experience in the front end with everything from ReactJS to Handlebar templating, PWA, HTML5, CSS, JS/Node.JS. My back end experience includes Express/React Router, MySQL, NoSQL, MongoDB, Mongoose and Heroku.
 
 Education:University of Connecticut, Stamford CT (Full Stack Web Development Bootcamp), Feb-July 2020. University of Connecticut, Storrs, CT (Bachelor Arts, Cognitive Science) Aug 2015-Dec 2017.
 
-Skill:HTML5, CSS3, SCSS, Javascript, JavaScript Frameworks (React), JQuery, Node, Express, MySQL, NoSQL (MongoDB), AJAX, Git
+{/* Skill:HTML5, CSS3, SCSS, Javascript, JavaScript Frameworks (React), JQuery, Node, Express, MySQL, NoSQL (MongoDB), AJAX, Git */}
 
             </p>
           </Cell>

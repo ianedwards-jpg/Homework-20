@@ -15,19 +15,19 @@ const Contact = () => {
               <ListItem>
                 <ListItemContent style={{fontSize: '25px', fontFamily: 'Arvo'}}>
                 <i className="fa fa-phone-square" aria-hidden="true"/>
-                (917)543-4894
+                (203)917-1876
                 </ListItemContent>
               </ListItem>
               <ListItem>
               <ListItemContent style={{fontSize: '25px', fontFamily: 'Arvo'}}>
                 <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                <a href="https://www.linkedin.com/in/araya-nawrath-31268237/">Araya Nawrath</a> 
+                <a href="https://www.linkedin.com/in/araya-nawrath-31268237/">Ian Edwards</a> 
                 </ListItemContent>
               </ListItem>
               <ListItem>
               <ListItemContent style={{fontSize: '25px', fontFamily: 'Arvo'}}>
                 <i className="fa fa-envelope-square" aria-hidden="true"/>
-                <a href="mailto:Arayanawrath@gmail.com">Arayanawrath@gmail.com</a>
+                <a href="mailto:Arayanawrath@gmail.com">ian.edwards@uconn.edu</a>
                 </ListItemContent>
               </ListItem>
             </List>

@@ -17,7 +17,7 @@ const Resume = () => {
               />
             </div>
 
-            <h2 style={{ paddingTop: "2em" }}>Araya Nawrath</h2>
+            <h2 style={{ paddingTop: "2em" }}>Ian Edwards</h2>
             <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
             <hr syle={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
@@ -25,19 +25,26 @@ const Resume = () => {
             </p>
             <hr syle={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Phone</h5>
-            <p>917-543-4894</p>
+            <p>(203) 917-1876</p>
             <h5>Email</h5>
-            <p>Arayanawrath@gmail.com</p>
+            <p>ian.edwards@uconn.edu</p>
             <hr syle={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
 
             <Education
-              startYear={2006}
-              endYear={2009}
-              schoolName="Rajamangala University of Technology Bangkok Thailand"
-              schoolDescription="Bachelor's in Information Systems Technology BICIS"
+              startYear={2013}
+              endYear={2015}
+              schoolName="Western Connecticut State University (Danbury CT)"
+              schoolDescription="Business Administration"
+            />
+
+            <Education
+              startYear={2015}
+              endYear={2017}
+              schoolName="University of Connecticut (Storrs, CT)"
+              schoolDescription="Cognitive Science"
             />
 
            <Education
@@ -51,7 +58,7 @@ const Resume = () => {
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
             <Skills 
-            skill="javascript"
+            skill="Javascript"
             progress={80}
             />
             <Skills 
@@ -64,7 +71,14 @@ const Resume = () => {
             />
             <Skills 
             skill="React"
+            progress={70}
+            />
+            <Skills 
+            skill="Web Templating"
             progress={50}
+            /><Skills 
+            skill="Routing"
+            progress={60}
             />
           </Cell>
         </Grid>
