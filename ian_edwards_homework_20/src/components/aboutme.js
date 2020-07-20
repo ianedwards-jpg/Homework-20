@@ -10,7 +10,7 @@ const About = () => {
       <Cell col={12}>
     
             <h2>Ian Edwards</h2>
-            <img src = {process.env.PUBLIC_URL + '/img/mee.jpg'}
+            <img src = {process.env.PUBLIC_URL + '/img/Me.jpg'}
               alt="me"
               style={{ height: "350px" }}
               style={{ height: "350px" }}

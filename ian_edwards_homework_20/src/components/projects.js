@@ -16,7 +16,7 @@ class Projects extends Component {
           <Cell col={4}>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
               <CardTitle style={{ height: '176px', color: 'white', background: 'url(/img/project1.png) center / cover' }}>
-                React Project #1
+                Movies and Munchies in Manhattan
                     </CardTitle>
               <CardText>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -32,7 +32,7 @@ class Projects extends Component {
           </Cell>
           <Cell col={4}>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ height: '176px', color: 'white', background: 'url(/img/projest2.png) center / cover' }}>
+              <CardTitle style={{ height: '176px', color: 'black', background: 'url(/img/projest2.png) center / cover' }}>
                 React Project #2
                </CardTitle>
               <CardText>
@@ -64,7 +64,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
           </Cell>
-          <Cell col={4}>
+          {/* <Cell col={4}>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
               <CardTitle style={{ height: '176px', color: 'white', background: 'url(/img/project1.png) center / cover' }}>
                 React Project #1
@@ -114,7 +114,7 @@ class Projects extends Component {
                 <IconButton name='share' />
               </CardMenu>
             </Card>
-          </Cell>
+          </Cell> */}
         </Grid>
       )
     } else if (this.state.activeTab === 1) {
@@ -122,11 +122,11 @@ class Projects extends Component {
         <Grid className="projects-grid">
           <Cell col={4}>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ height: '176px', color: 'white', background: 'url(/img/project1.png) center / cover' }}>
-                React Project #1
+              <CardTitle style={{ height: '176px', color: 'white', background: 'url(./img/BootStrap_CSS.jpg) center / cover' }}>
+                Bootstrap CSS Webpage
                     </CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              Technologies Used: Javascript
                    </CardText>
               <CardActions border>
                 <Button colored>Github</Button>
@@ -140,10 +140,10 @@ class Projects extends Component {
           <Cell col={4}>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
               <CardTitle style={{ height: '176px', color: 'white', background: 'url(/img/projest2.png) center / cover' }}>
-                React Project #2
+                Password Generator 
                </CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                Technologies Used: Javascript 
                   </CardText>
               <CardActions border>
                 <Button colored>Github</Button>
@@ -156,11 +156,11 @@ class Projects extends Component {
           </Cell>
           <Cell col={4}>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ height: '176px', color: 'white', background: 'url(/img/dashboard.png) center / cover' }}>
-                React Project #3
+              <CardTitle style={{ height: '176px', color: 'white', background: 'url(/img/BootStrap_CSS.jpg) center / cover' }}>
+                Weather App
                  </CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                Technologies Used: Bootstrap CSS3, Vanilla Javascript, JQuery, Ajax
                 </CardText>
               <CardActions border>
                 <Button colored>Github</Button>
@@ -292,9 +292,9 @@ class Projects extends Component {
     return (
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Vanilla JS/JQuery</Tab>
+          <Tab>Vanilla JS/CSS</Tab>
           <Tab>Full Stack</Tab>
-          <Tab>Command Line Interface</Tab>
+          <Tab>Node.JS/React</Tab>
         </Tabs>
 
         <Grid>

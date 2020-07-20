@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./education";
-import Experience from "./experience";
+// import Experience from "./experience";
 import Skills from "./skills";
 
 const Resume = () => {
@@ -9,13 +9,13 @@ const Resume = () => {
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{ textAlign: "center" }}>
+            {/* <div style={{ textAlign: "center" }}>
               <img
                 src="https://images.unsplash.com/photo-1533323905636-7f0bfa0ba5ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
                 alt="avatar"
                 style={{ height: "250px", paddingTop: "2rem"}}
               />
-            </div>
+            </div> */}
 
             <h2 style={{ paddingTop: "2em" }}>Ian Edwards</h2>
             <h4 style={{ color: "grey" }}>Full Stack Developer</h4>

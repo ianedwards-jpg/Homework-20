@@ -21,13 +21,13 @@ const Contact = () => {
               <ListItem>
               <ListItemContent style={{fontSize: '25px', fontFamily: 'Arvo'}}>
                 <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                <a href="https://www.linkedin.com/in/araya-nawrath-31268237/">Ian Edwards</a> 
+                <a href="https://linkedin.com/in/ian-edwards-4195586a">Ian Edwards</a> 
                 </ListItemContent>
               </ListItem>
               <ListItem>
               <ListItemContent style={{fontSize: '25px', fontFamily: 'Arvo'}}>
                 <i className="fa fa-envelope-square" aria-hidden="true"/>
-                <a href="mailto:Arayanawrath@gmail.com">ian.edwards@uconn.edu</a>
+                <a href="mailto:ian.edwards@uconn.edu">ian.edwards@uconn.edu</a>
                 </ListItemContent>
               </ListItem>
             </List>

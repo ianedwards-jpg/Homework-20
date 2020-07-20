@@ -3,29 +3,29 @@
   background: #833ab4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    pink,
+    rgb(61, 4, 61),
     gray,
-    gold
+    red
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    pink,
+    rgb(61, 4, 61),
     gray,
-    gold
+    red
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .landing-grid {  background: #833ab4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    pink,
+    purple rgb(61, 4, 61),
     gray,
-    gold
+    red
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    pink,
+    rgb(61, 4, 61),
     gray,
-    gold
+    red
     
   );
   text-align: center;
@@ -52,6 +52,8 @@
   color: white;
   padding: 2em;
 }
+
+
 
 /* contact page css */
 
