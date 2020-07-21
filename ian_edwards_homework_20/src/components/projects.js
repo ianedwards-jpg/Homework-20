@@ -185,8 +185,8 @@ class Projects extends Component {
               Technologies Used: Node.JS, JQuery
                    </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href='https://github.com/ianedwards-jpg/Homework-9-ReadMe-Generator.github.io'>Github</Button>
+                <Button colored href='https://ianedwards-jpg.github.io/Homework-9-ReadMe-Generator.github.io/'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
@@ -195,15 +195,15 @@ class Projects extends Component {
           </Cell>
           <Cell col={4}>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ height: '176px', color: 'black', background: 'url(/img/employeeTracker_Node-JS.jpg) center / cover' }}>
+              <CardTitle style={{ height: '176px', color: 'white', background: 'url(/img/employeeTracker_Node-JS.jpg) center / cover' }}>
                 Employee Tracker
                </CardTitle>
               <CardText>
               Technologies Used: Node.JS, MySQL
                   </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href='https://github.com/ianedwards-jpg/Homework-12.github.io'>Github</Button>
+                <Button colored href='https://ianedwards-jpg.github.io/Homework-12.github.io/'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
@@ -212,15 +212,15 @@ class Projects extends Component {
           </Cell>
           <Cell col={4}>
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-              <CardTitle style={{ height: '176px', color: 'black', background: 'url(/img/dashboard.png) center / cover' }}>
-                Hodophile App
+              <CardTitle style={{ height: '176px', color: 'black', background: 'url(/img/react_table_photo.jpg) center / cover' }}>
+               Employee Table- React JS
                  </CardTitle>
               <CardText>
-                Technologies Used: Heroku, React.JS, MongoDB, Node.JS
+                Technologies Used: React.JS, ReactTable Node.JS, Github Hosting
                 </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href='https://github.com/ianedwards-jpg/Homework-19'>Github</Button>
+                <Button colored href='https://ianedwards-jpg.github.io/Homework-19/'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
