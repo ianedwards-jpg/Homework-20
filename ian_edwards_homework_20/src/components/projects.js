@@ -126,11 +126,11 @@ class Projects extends Component {
                 Bootstrap CSS Webpage
                     </CardTitle>
               <CardText>
-              Technologies Used: HTML5, Bootstrap CSS
+              Technologies Used: HTML5, Bootstrap CSS/JS
                    </CardText>
               <CardActions border>
-                <Button href='https://github.com/Team-KIA/Project-1' colored>Github</Button>
-                <Button href='https://github.com/ianedwards-jpg' colored>Live Demo</Button>
+                <Button href='https://github.com/ianedwards-jpg/Homework-2.github.io' colored>Github</Button>
+                <Button href='https://ianedwards-jpg.github.io/Homework-2.github.io/' colored>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
@@ -146,8 +146,8 @@ class Projects extends Component {
                 Technologies Used: Bootstrap CSS, Vanilla Javascript
                   </CardText>
               <CardActions border>
-                <Button colored href='https://github.com/Team-KIA/Project-1' >Github</Button>
-                <Button colored href='https://github.com/Team-KIA/Project-1'>Live Demo</Button>
+                <Button colored href='https://github.com/ianedwards-jpg/Homework-3' >Github</Button>
+                <Button colored href='https://ianedwards-jpg.github.io/Homework-3/'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
@@ -163,8 +163,8 @@ class Projects extends Component {
                 Technologies Used: Bootstrap CSS3, Vanilla Javascript, JQuery, Ajax
                 </CardText>
               <CardActions border>
-                <Button colored href='https://github.com/Team-KIA/Project-1'>Github</Button>
-                <Button colored href='https://github.com/Team-KIA/Project-1'>Live Demo</Button>
+                <Button colored href='https://github.com/ianedwards-jpg/Homework-6-V2.github.io'>Github</Button>
+                <Button colored href='https://ianedwards-jpg.github.io/Homework-6-V2.github.io/'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
