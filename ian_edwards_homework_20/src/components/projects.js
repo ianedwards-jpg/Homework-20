@@ -19,15 +19,15 @@ class Projects extends Component {
                 Movies and Munchies in Manhattan
                     </CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                   </CardText>
+              Technologies Used: Vanilla Javascript, Ajax, UlKit CSS
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href='https://github.com/Team-KIA/Project-1' >Github</Button>
+                <Button colored href='https://team-kia.github.io/Project-1/'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
               </CardMenu>
+            </CardText>
             </Card>
           </Cell>
           <Cell col={4}>
@@ -36,11 +36,11 @@ class Projects extends Component {
                 Grocery Assistant 
                </CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              Technologies Used: Node.JS, Ajax, Bootstrap CSS
                   </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href='https://github.com/ianedwards-jpg/Project-2-Please-Work-'>Github</Button>
+                <Button colored href='https://ianedwards-jpg.github.io/Project-2-Please-Work-/'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
@@ -56,8 +56,8 @@ class Projects extends Component {
                 Technologies Used: Node.JS, MySQL
                 </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href='https://github.com/ianedwards-jpg/Project-2-Please-Work-'>Github</Button>
+                <Button colored href='https://github.com/ianedwards-jpg/Project-2-Please-Work-'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
@@ -129,8 +129,8 @@ class Projects extends Component {
               Technologies Used: HTML5, Bootstrap CSS
                    </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button href='https://github.com/Team-KIA/Project-1' colored>Github</Button>
+                <Button href='https://github.com/ianedwards-jpg' colored>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
@@ -146,8 +146,8 @@ class Projects extends Component {
                 Technologies Used: Bootstrap CSS, Vanilla Javascript
                   </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href='https://github.com/Team-KIA/Project-1' >Github</Button>
+                <Button colored href='https://github.com/Team-KIA/Project-1'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
@@ -163,8 +163,8 @@ class Projects extends Component {
                 Technologies Used: Bootstrap CSS3, Vanilla Javascript, JQuery, Ajax
                 </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>Live Demo</Button>
+                <Button colored href='https://github.com/Team-KIA/Project-1'>Github</Button>
+                <Button colored href='https://github.com/Team-KIA/Project-1'>Live Demo</Button>
               </CardActions>
               <CardMenu style={{ color: '#fff' }}>
                 <IconButton name='share' />
